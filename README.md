@@ -32,9 +32,9 @@ were obtained.
 
 | Student Name | Student ID |
 |---|---|
-| [Afifah Binti Mohd Shukri ] | [AIU24102306] |
-| [Nur Khairunnisa binti Ramli] | [AIU24102156] |
-| [Ummasalma Jamil ] | [AIU24102319] |
+| 1. Afifah Binti Mohd Shukri  | AIU24102306 |
+| 2. Nur Khairunnisa binti Ramli | AIU24102156 |
+| 3. Ummasalma Jamil  | AIU24102319|
 
 ---
 
@@ -131,6 +131,7 @@ principles.
 
 ---
 
+
 ## 🛠️ Technology Stack
 
 | Technology | Purpose |
@@ -144,6 +145,7 @@ principles.
 | GitHub | Source code and project repository |
 
 ---
+
 
 ## 🏗️ Application Architecture
 
@@ -191,7 +193,9 @@ The calculation engine is kept separate from UI functions so that calculation
 logic can be maintained independently of the interface.
 
 
+
 ## 📱 Main User Flow
+
 Open TDM Insight
        ↓
 Create Fictional Case
@@ -222,7 +226,9 @@ Display Final Results
 Open Calculation Explanation
 
 
+
 ## 📥 Installation Guide
+
 Requirements
 
 Before installing or building the application, ensure that you have:
@@ -240,7 +246,9 @@ Open the project in Android Studio.
 Allow Android Studio to synchronize the Gradle files and complete the required
 project setup.
 
+
 ## 🔨 How to Build the Project
+
 Using Android Studio
 Clone or download the repository.
 Open the project in Android Studio.
@@ -259,13 +267,13 @@ apk/app-release.apk
 ## 📦 APK Download
 
 The release-ready APK is available in the repository:
-apk/app-release.apk
-Download APK: [Add APK GitHub link]
+[Download TDM Insight APK](apk/app-release.apk)
+
 
 ## 📸 Screenshots
 
 Screenshots demonstrating the application interface are stored in:
-[screenshots]
+[View Screenshots](screenshots/)
 
 ## 📂 GitHub Repository Structure
 
@@ -328,12 +336,11 @@ User flow
 Requirements-to-feature mapping
 
 Wireframes
-[docs/wireframe/]
+[Wireframes](docs/wireframe/)
 Contains the interface wireframes developed during the design stage.
 
 Diagrams
-[docs/diagrams/]
-
+[Diagrams](docs/diagrams/)
 Contains the software engineering and system design diagrams for the project.
 
 ## 🧪 Testing
@@ -379,7 +386,9 @@ documentation support, and design discussion.
 
 A record of AI usage is provided in:
 
-ai/AI_Usage_Log.pdf
+## AI Usage
+
+[View AI Usage Log](ai/AI_Usage_Log.pdf)
 
 The AI Usage Log documents the relevant AI tools, purposes, prompts where
 
@@ -390,7 +399,7 @@ students, and reflections on the use of AI.
 
 We would like to acknowledge:
 
-The CDE2313 Mobile Application Development teaching team.
+Lecturer Ts. Mohd Zulkifli Mohd Zaki
 Albukhary International University.
 The resources and references provided in the project case study.
 All sources used to understand Therapeutic Drug Monitoring and Vancomycin
