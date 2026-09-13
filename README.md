@@ -267,13 +267,12 @@ apk/app-release.apk
 ## 📦 APK Download
 
 The release-ready APK is available in the repository:
-[Download TDM Insight APK](apk/app-release.apk)
-
+[Download TDM Insight APK](./apk/app-release.apk)
 
 ## 📸 Screenshots
 
 Screenshots demonstrating the application interface are stored in:
-[View Screenshots](screenshots/)
+ [View Screenshots](./screenshots/)
 
 ## 📂 GitHub Repository Structure
 
@@ -336,11 +335,12 @@ User flow
 Requirements-to-feature mapping
 
 Wireframes
-[Wireframes](docs/wireframe/)
+[View Wireframes](./docs/wireframe/)
 Contains the interface wireframes developed during the design stage.
 
 Diagrams
-[Diagrams](docs/diagrams/)
+[View Diagrams](./docs/diagrams/)
+
 Contains the software engineering and system design diagrams for the project.
 
 ## 🧪 Testing
@@ -388,8 +388,7 @@ A record of AI usage is provided in:
 
 ## AI Usage
 
-[View AI Usage Log](ai/AI_Usage_Log.pdf)
-
+[View AI Usage Log](./ai/AI_Usage_Log.pdf)
 The AI Usage Log documents the relevant AI tools, purposes, prompts where
 
 applicable, suggestions adopted or rejected, modifications made by the
