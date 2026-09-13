@@ -84,6 +84,9 @@ Lecturer Ts. Mohd Zulkifli Mohd Zaki
 
 Reference calculators: myTDM Calculator, PhIS TDM Calculator
 
+## 📜 License
+This project is licensed under the MIT License – see the [LICENSE](LICENSE) file for details.
+
 ## 📖 References
 Malaysian Pharmacy Information System (PhIS) TDM Calculator Manual
 
