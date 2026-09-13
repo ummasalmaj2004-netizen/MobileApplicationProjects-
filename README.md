@@ -1,82 +1,92 @@
-# Calculator Application
+# TDM Insight – Therapeutic Drug Monitoring Calculator
 
 ## 📚 Course Information
-Mobile Application Development – Semester 3  
-School of Computing and Informatics, AIU  
+- **Course Code**: CDE2313 – Mobile Application Development  
+- **Programme**: Bachelor in Data Science  
+- **Semester**: 3 (2025/2026)  
+- **Lecturer**: Ts. Mohd Zulkifli Mohd Zaki  
 
 ## 👥 Group Members
-- Ummasalma Jamil (ID: XXXXX)  
-- [Teammate Name] (ID: XXXXX)  
-- [Teammate Name] (ID: XXXXX)  
+- Student Name (ID)  
+- Student Name (ID)  
+- Student Name (ID)  
 
-## 📖 Case Study
-### Problem Overview
-Students often need a simple calculator to perform quick arithmetic operations.  
+## 📝 Case Study Overview
+The project is based on the **TDM Insight** case study.  
+A hospital pharmacy requires a native Android application to perform **Therapeutic Drug Monitoring (TDM)** calculations for Vancomycin. The app collects patient and medication parameters, validates inputs, runs pharmacokinetic calculations, and explains results in a clear, structured way.
 
-### Summary of Implemented Solution
-Our group is developing a mobile calculator app using Kotlin and Android Studio.  
-The app supports basic arithmetic operations, a clear/reset function, and a simple UI following MVVM architecture.
+### Problem Domain
+Manual TDM calculations are error-prone and inefficient. Pharmacists need a reliable, mobile tool to streamline workflows.  
 
-## 🔑 Key Implemented Features
-- Addition, subtraction, multiplication, division  
-- Clear/reset functionality  
-- Error handling (e.g., divide by zero)  
-- Simple, user-friendly interface  
+### Implemented Solution
+We developed **TDM Insight**, a native Android app using Kotlin and Jetpack Compose/XML. It provides dynamic input forms, validation, a dedicated calculation engine, and explainable results for Vancomycin workflows.
 
-## 🛠️ Technology Stack & Application Architecture
+## ✨ Key Features
+- Vancomycin workflows: **Pre**, **Post**, **Pre + Post**  
+- Dynamic input forms based on workflow selection  
+- Input validation (required fields, ranges, cross-field logic)  
+- Pharmacokinetic outputs: Ke, half-life, Vd, clearance, AUC  
+- Explainable results: inputs → intermediate → final  
+- Material 3 UI design for clarity and usability  
+
+## 🛠️ Technology Stack & Architecture
 - **Language**: Kotlin  
-- **Framework**: Android Studio  
-- **Architecture**: MVVM  
-- **Build System**: Gradle  
+- **IDE**: Android Studio  
+- **UI**: Jetpack Compose / XML  
+- **Architecture**: MVVM with a separate calculation engine  
 
-## ⚙️ Installation Guide
+## 📥 Installation Guide
 1. Clone the repository:  
    ```bash
-   git clone https://github.com/username/calculator-app.git
+   git clone <GitHub Repository URL>
 Open in Android Studio.
 
-Sync Gradle and run the project.
+Sync Gradle and build the project.
 
-## 🏗️ How to Build the Project
-In Android Studio: Build → Build APK
+Run on emulator or physical device (Android 8.0+).
 
-Output APK will be stored in /apk/app-release.apk
+## 🔨 How to Build
+Use Android Studio’s Build → Build APK option.
 
-## 📦 APK Download
-(APK will be uploaded here once generated)
+The release APK is available in /apk/app-release.apk.
+
+## 📱 APK Download
+[Looks like the result wasn't safe to show. Let's switch things up and try something else!]
 
 ## 🖼️ Screenshots
-(Screenshots will be added in /screenshots/ once UI is finalized)
+Screenshots are available in the /screenshots/ folder.
 
-## 📂 GitHub Repository Structure
-MobileAppProject/
-├── README.md                  # Project landing page
+## 📂 Repository Structure
+plaintext
+## MobileAppProject/
+├── README.md
 ├── LICENCE
 ├── .gitignore
-├── app/                       # Android Studio Project
-├── gradle/                    # Gradle configuration
-├── screenshots/               # Screenshots for the mobile app
-├── docs/                      # Related documentations
+├── app/                # Android Studio Project
+├── gradle/             # Gradle configuration
+├── screenshots/        # App screenshots
+├── docs/               # Documentation
 │   ├── Case_Study_Analysis.md
 │   ├── wireframe/
 │   └── diagrams/
-├── apk/                       # Release-ready APK file
+├── apk/                # Release APK
 │   └── app-release.apk
-├── presentation/              # Presentation slides for final demonstration
+├── presentation/       # Project presentation
 │   ├── Presentation.pptx
 │   └── Presentation.pdf
-├── ai/                        # Concise AI usage declaration
+├── ai/                 # AI usage declaration
 │   └── AI_Usage_Log.pdf
-└── assets/                    # Store supporting resources
-
+└── assets/             # Supporting resources
 ## 🙏 Acknowledgements
-Special thanks to our lecturer, Ms. Muhd Zulkifli, for her guidance and support throughout this project.
+Albukhary International University
 
-Appreciation to AIU faculty for providing resources.
+Lecturer Ts. Mohd Zulkifli Mohd Zaki
 
-Gratitude to group members for collaboration and contribution.
+Reference calculators: myTDM Calculator, PhIS TDM Calculator
 
-## 📚 References
-Android Developer Documentation
+## 📖 References
+Malaysian Pharmacy Information System (PhIS) TDM Calculator Manual
 
-Kotlin Language Reference
+myTDM Calculator (https://www.mytdmcalculator.com/)
+
+Vancomycin TDM clinical guidance (authoritative sources approved by lecturer)
