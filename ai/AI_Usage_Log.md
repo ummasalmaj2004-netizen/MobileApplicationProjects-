@@ -6,175 +6,247 @@
 
 ## 1. Purpose
 
-This document records the use of Artificial Intelligence (AI) as a supplementary resource throughout the planning, design, documentation, and refinement of the **TDM Insight** project.
+This document provides a transparent record of the use of Artificial Intelligence (AI) during the development of the **TDM Insight** project.
 
-AI-assisted suggestions were evaluated against the project requirements and adapted where appropriate. The project team remained responsible for reviewing the suggestions, making final decisions, and ensuring that the resulting work accurately represented the project.
+The project was developed primarily through the **team's own analysis, technical work, design decisions, implementation, testing, and problem-solving**. AI assistance was used only as a supplementary resource when the team encountered difficulties, became stuck on a particular issue, or required additional clarification.
 
----
-
-## 2. AI Contribution Overview
-
-AI assistance was utilized as a supportive resource in the following areas:
-
-- **Requirements Interpretation** — highlighting important functional and non-functional requirements from the case study.
-- **Interface Planning** — exploring possible screen structures and user-flow arrangements.
-- **System Design** — supporting the organization of application components and workflow relationships.
-- **Technical Documentation** — identifying suitable structures for the Case Study Analysis and README documentation.
-- **Project Licensing** — exploring appropriate academic and non-commercial licensing considerations.
-- **Design Refinement** — providing alternative approaches that could be evaluated against the project's requirements.
-
-### Key Principle
-
-> **AI suggestions served as guidance and reference points; the project team remained responsible for reviewing, modifying, verifying, and determining the final content and design decisions.**
+The technical development of the application, including the implementation and integration of the core application components, was carried out by the project team.
 
 ---
 
-## 3. AI Usage Record
+## 2. Approach to AI Usage
 
-| Area | AI-Assisted Contribution | Team Evaluation & Action |
-|---|---|---|
-| **Requirements Analysis** | Highlighted major requirements, workflows, validation needs, and application constraints. | Requirements were reviewed against the official case study before being incorporated into project documentation. |
-| **Wireframe Development** | Suggested possible layouts for the TDM Insight screens and user journey. | Visual suggestions were used as references. Final wireframes were manually recreated and refined in Draw.io. |
-| **System Diagrams** | Provided visual references for representing application workflows and system structure. | Relevant concepts were selected and the diagrams were manually recreated in Draw.io. |
-| **Case Study Analysis** | Suggested an organized structure for analysing the problem, requirements, workflows, validation, and proposed solution. | The structure was reviewed and adapted to reflect the actual TDM Insight project. |
-| **README Documentation** | Highlighted key sections for the project README, including architecture, installation, features, references, and project structure. | Documentation was reviewed and adjusted to correspond with the actual repository and implementation. |
-| **License** | Explained differences between licensing approaches and highlighted the importance of non-commercial restrictions for an academic prototype. | The licensing approach was reviewed and adapted to the intended academic use of the project. |
+The team adopted a **problem-solving-first approach** to AI usage.
+
+The general development process was:
+
+**Team Analysis → Independent Attempt → Problem Encountered → AI Consultation → Evaluation → Team Implementation**
+
+Rather than using AI to produce the project automatically, the team first attempted to understand and solve problems independently. When a specific difficulty could not be resolved, ChatGPT was consulted for explanations, alternative approaches, troubleshooting guidance, or clarification.
+
+The information obtained was then reviewed and applied according to the actual requirements of the project.
+
+---
+
+## 3. Areas Where AI Was Used
+
+AI assistance was limited primarily to situations where additional clarification or guidance was required.
+
+### 3.1 Requirements and Documentation
+
+AI was consulted when clarification was needed regarding:
+
+- The organization of the project documentation.
+- The structure of the Case Study Analysis.
+- The required sections of the README.
+- Repository organization.
+- Appropriate documentation of AI usage.
+
+The project team reviewed the suggestions and adapted the documentation according to the official assessment requirements.
+
+---
+
+### 3.2 Wireframe Planning
+
+AI was occasionally used to explore possible screen layouts and user-flow arrangements when the team needed another perspective on the interface structure.
+
+The resulting ideas were treated as references rather than final designs.
+
+The team made the final design decisions and recreated the required wireframes manually in **Draw.io**.
+
+---
+
+### 3.3 System Diagram Planning
+
+AI was consulted to clarify possible ways of representing application workflows and system relationships.
+
+The suggestions were reviewed by the team, and the final diagrams were manually created and refined in **Draw.io** according to the actual system design.
+
+---
+
+### 3.4 Technical Problem-Solving
+
+The technical implementation was carried out by the project team.
+
+AI was used only when the team became stuck on a particular technical problem or required clarification of a concept.
+
+Examples of possible technical support include:
+
+- Understanding an unfamiliar Android or Kotlin concept.
+- Troubleshooting an error.
+- Clarifying how a particular component should work.
+- Exploring possible solutions when an implementation approach was not working as expected.
+- Understanding why an error occurred.
+
+The team remained responsible for implementing, testing, debugging, and verifying the resulting solution.
 
 ---
 
 ## 4. Representative AI Interactions
 
-### 4.1 Interface & Documentation Planning
+### 4.1 Documentation Structure
 
-**Purpose:**  
-To identify and organize the project documentation and design materials required during the development process.
+**Situation:**  
+The team required clarification on how to organize the project documentation.
+
+**Representative Prompt:**
+
+> "Now, README."
+
+**AI Contribution:**  
+Provided guidance on organizing major README sections such as the project overview, features, technology stack, architecture, installation, repository structure, and references.
+
+**Team Action:**  
+The suggestions were reviewed and adapted to match the actual project and repository.
+
+---
+
+### 4.2 Wireframe and Diagram Organization
+
+**Situation:**  
+The team needed clarification on keeping interface wireframes and system diagrams as separate project artifacts.
 
 **Representative Prompt:**
 
 > "Separate the wireframes and diagrams."
 
 **AI Contribution:**  
-AI provided guidance on treating the application's **screen-level interface designs** and **system-level diagrams** as separate design artifacts.
+Provided clarification on distinguishing screen-level interface design from system-level diagrams.
 
 **Team Action:**  
-The concepts were reviewed and the final wireframes and diagrams were organized separately according to the project documentation structure.
+The team organized the artifacts separately and manually produced the final diagrams and wireframes.
 
 ---
 
-### 4.2 System Diagram Development
+### 4.3 Diagram Planning
 
-**Purpose:**  
-To explore an appropriate way to organize the application's system diagrams.
+**Situation:**  
+The team needed an alternative perspective on grouping the system diagrams.
 
 **Representative Prompt:**
 
 > "Now the diagrams, can you group it into 3 and generate images?"
 
 **AI Contribution:**  
-AI provided visual references demonstrating possible groupings and relationships between major application processes.
+Provided visual references illustrating possible ways to organize the diagrams.
 
 **Team Action:**  
-The references were used to understand the proposed structure. The final diagrams were manually recreated and refined in **Draw.io**.
+The references were used only to understand possible structures. The final diagrams were manually recreated and refined by the team in Draw.io.
 
 ---
 
-### 4.3 Case Study Documentation
+### 4.4 Licensing Clarification
 
-**Purpose:**  
-To organize the analysis of the TDM Insight case study.
+**Situation:**  
+The team needed clarification about using a license that would restrict commercial use of the academic project.
+
+**Representative Prompt:**
+
+> "And also for the hospital and we cannot accept sell."
 
 **AI Contribution:**  
-AI suggested areas such as the problem statement, target users, functional requirements, workflows, validation, calculation engine, and proposed solution.
+Explained different licensing considerations and highlighted the difference between permissive licenses and a non-commercial academic approach.
 
 **Team Action:**  
-The suggested structure was compared with the official case study and adapted to represent the project's actual requirements.
+The team reviewed the explanation and selected an approach appropriate for the intended academic and non-commercial nature of the project.
 
 ---
 
-### 4.4 README Documentation
+## 5. Technical Development Responsibility
 
-**Purpose:**  
-To identify the major sections required for professional project documentation.
+The technical component of **TDM Insight** was developed by the project team.
 
-**AI Contribution:**  
-AI highlighted areas including project overview, key features, technology stack, application architecture, installation instructions, repository structure, screenshots, acknowledgements, and references.
+The team was responsible for:
 
-**Team Action:**  
-The suggested structure was reviewed and adjusted to reflect the actual project repository and implementation.
+- Android Studio project development.
+- Kotlin implementation.
+- User interface development.
+- Application navigation.
+- Input handling.
+- Validation logic.
+- Calculation workflow implementation.
+- Integration of application components.
+- Debugging and troubleshooting.
+- Testing and refinement.
+- Final technical decisions.
 
----
-
-### 4.5 License Consideration
-
-**Purpose:**  
-To understand suitable licensing considerations for an academic, non-commercial software prototype.
-
-**AI Contribution:**  
-AI highlighted the distinction between permissive open-source licenses and a more restrictive academic non-commercial approach.
-
-**Team Action:**  
-The licensing approach was reviewed and adapted to reflect the intended academic and non-commercial nature of TDM Insight.
+AI was **not treated as a replacement for the team's technical development**. When assistance was required, the team used AI explanations to better understand the issue and then performed the implementation and verification themselves.
 
 ---
 
-## 5. Human Review & Adaptation
+## 6. Human Verification and Decision-Making
 
-AI-assisted suggestions were treated as **proposals rather than final project decisions**.
+Whenever AI assistance was used, the team maintained responsibility for evaluating the information provided.
 
-The project team:
+The process included:
 
-1. Reviewed the relevance of each suggestion.
-2. Compared suggestions with the official project requirements.
-3. Selected applicable ideas.
-4. Modified structures and wording where necessary.
-5. Manually produced the final diagrams and design artifacts.
-6. Ensured that the documentation reflected the actual project scope and implementation.
-7. Maintained responsibility for the final project decisions and deliverables.
+1. Identifying the specific problem.
+2. Attempting to solve the problem independently.
+3. Consulting AI only when additional assistance was required.
+4. Reviewing the explanation or proposed approach.
+5. Comparing it with the project requirements.
+6. Adapting the approach where necessary.
+7. Implementing the solution within the project.
+8. Testing and verifying the result.
 
----
-
-## 6. AI Use Boundaries
-
-AI assistance was used within the scope of supporting the project development process. Particular attention was given to ensuring that AI-generated suggestions were not treated as automatically correct or directly adopted without review.
-
-The team maintained responsibility for:
-
-- Project requirements and interpretation.
-- Final interface and system design decisions.
-- Verification of project information.
-- Final documentation.
-- Actual application implementation.
-- Testing and debugging.
-- Compliance with the assessment requirements.
+This ensured that AI remained a **supporting resource rather than the primary source of project development**.
 
 ---
 
-## 7. Reflection
+## 7. AI Usage Boundaries
 
-The use of AI provided an additional perspective during the development process by helping to organize ideas, identify important requirements, explore alternative design approaches, and improve documentation structure.
+The team maintained clear boundaries regarding the use of AI.
 
-Its contribution was particularly useful during the early planning and refinement stages of the project. AI-assisted references helped the team consider different ways of presenting the application's workflows, interfaces, system structure, and supporting documentation.
+AI was used for:
 
-The project team evaluated the suggestions against the official case study and adapted them where necessary. For the wireframes and system diagrams, AI-generated visual references were used to explore possible structures, while the final designs were manually recreated and refined in Draw.io.
+- Clarification.
+- Troubleshooting guidance.
+- Explanations.
+- Alternative ideas.
+- Documentation organization.
+- Design references when the team needed another perspective.
 
-This approach positioned AI as a **supportive development resource**, while maintaining the team's responsibility for analysis, decision-making, design, verification, and the final project outcome.
+The team did not use AI as a substitute for:
+
+- Independent technical development.
+- Programming and implementation responsibility.
+- Testing.
+- Debugging and verification.
+- Final design decisions.
+- Project decision-making.
 
 ---
 
-## 8. Summary of AI Contribution
+## 8. Reflection
 
-| Development Area | Level of AI Support | Final Responsibility |
+The TDM Insight project was developed primarily through the team's own technical work, analysis, experimentation, and problem-solving.
+
+AI was used selectively when the team encountered difficulties or required clarification. This approach allowed the team to maintain ownership of the development process while using AI as an additional source of technical and conceptual guidance when necessary.
+
+The technical implementation remained a responsibility of the project team. Suggestions obtained through AI were evaluated before being applied, and the team was responsible for implementing, testing, and verifying the resulting solutions.
+
+For design-related tasks, AI-generated references were used to explore possible approaches when needed. The final wireframes and diagrams were manually recreated and refined by the team using Draw.io.
+
+Overall, AI functioned as a **supportive troubleshooting and learning resource**, while the project's core technical development, decision-making, implementation, and verification remained with the project team.
+
+---
+
+## 9. Summary
+
+| Area | Team Responsibility | AI Role |
 |---|---|---|
-| Requirements interpretation | Guidance and clarification | Project Team |
-| Wireframe planning | Visual references and layout ideas | Project Team |
-| Diagram planning | Structural and visual references | Project Team |
-| Case study analysis | Documentation structure and organization | Project Team |
-| README | Documentation structure and refinement | Project Team |
-| License consideration | Explanation and comparison | Project Team |
-| Final project decisions | No automatic adoption | Project Team |
+| Requirements | Analysed and interpreted project requirements | Clarification when needed |
+| Technical Development | **Developed and implemented by the team** | Troubleshooting and explanations when stuck |
+| UI Design | Designed and refined by the team | Additional design perspectives when required |
+| Wireframes | Manually created by the team in Draw.io | Reference ideas when needed |
+| System Diagrams | Manually created by the team in Draw.io | Structural references when needed |
+| Documentation | Prepared and adapted by the team | Organization and clarification |
+| Testing | Performed by the team | Troubleshooting guidance when required |
+| Final Decisions | **Made by the team** | Suggestions only |
+| Project Ownership | **Project team** | Supporting resource |
 
 ---
 
-## 9. Final Statement
+## 10. Final Statement
 
-> **AI was used to enhance the development process by providing guidance, alternative perspectives, and design references. The project team evaluated and adapted these contributions while retaining responsibility for the project's analysis, design decisions, implementation, verification, and final deliverables.**
+> **The TDM Insight project was developed through the team's own technical work, analysis, design, implementation, testing, and decision-making. AI was used selectively as a supplementary resource when the team encountered difficulties or required clarification. All AI-assisted suggestions were evaluated by the team, while responsibility for the final implementation and project outcome remained with the project team.**
