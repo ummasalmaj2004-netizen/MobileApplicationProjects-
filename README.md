@@ -32,9 +32,9 @@ were obtained.
 
 | Student Name | Student ID |
 |---|---|
-| [Student Name 1] | [Student ID 1] |
-| [Student Name 2] | [Student ID 2] |
-| [Student Name 3] | [Student ID 3] |
+| [Afifah Binti Mohd Shukri ] | [AIU24102306] |
+| [Nur Khairunnisa binti Ramli] | [AIU24102156] |
+| [Ummasalma Jamil ] | [AIU24102319] |
 
 ---
 
@@ -190,6 +190,7 @@ The main conceptual architecture is:
 The calculation engine is kept separate from UI functions so that calculation
 logic can be maintained independently of the interface.
 
+
 ## 📱 Main User Flow
 Open TDM Insight
        ↓
@@ -219,7 +220,9 @@ Display Intermediate Results
 Display Final Results
        ↓
 Open Calculation Explanation
-📥 Installation Guide
+
+
+## 📥 Installation Guide
 Requirements
 
 Before installing or building the application, ensure that you have:
@@ -262,10 +265,10 @@ Download APK: [Add APK GitHub link]
 ## 📸 Screenshots
 
 Screenshots demonstrating the application interface are stored in:
-
-screenshots/
+[screenshots]
 
 ## 📂 GitHub Repository Structure
+
 ## TDM-Insight/
 │
 ├── README.md
@@ -303,6 +306,7 @@ screenshots/
 └── assets/
     └── Supporting resources ##
 
+
 ## 📄 Project Documentation
 
 Additional project documentation can be found in the docs/ directory.
@@ -324,11 +328,11 @@ User flow
 Requirements-to-feature mapping
 
 Wireframes
-docs/wireframe/
+[docs/wireframe/]
 Contains the interface wireframes developed during the design stage.
 
 Diagrams
-docs/diagrams/
+[docs/diagrams/]
 
 Contains the software engineering and system design diagrams for the project.
 
