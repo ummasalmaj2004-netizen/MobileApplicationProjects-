@@ -1,13 +1,41 @@
-Academic and Hospital Use License
+TDM INSIGHT – ACADEMIC NON-COMMERCIAL LICENSE
 
-Copyright (c) 2026 Ummasalma Jamil and Group Members
+Copyright (c) 2026 TDM Insight Group
 
-Permission is hereby granted, free of charge, to hospital staff, academic institutions, and students to use, copy, and modify this software for educational, research, and clinical training purposes only.
+This software and its associated documentation are developed as an academic
+software prototype for the CDE2313 Mobile Application Development project.
 
-Restrictions:
-- This software must not be sold, sublicensed, or used for commercial gain.
-- This software must not be used as a clinically validated prescribing, diagnostic, or autonomous treatment-decision system.
-- All demonstration cases must remain fictional, and clinical equations must be based on authoritative sources approved by the lecturer.
+The software is intended for educational, academic, research, demonstration,
+and non-commercial purposes only.
 
-Disclaimer:
-The software is provided "AS IS", without warranty of any kind. The authors are not liable for any damages or misuse arising from its use. This project is an academic prototype intended for educational purposes at Albukhary International University.
+Permission is granted to the hospital/pharmacy department, students,
+lecturers, and other authorized academic users to:
+
+- View and study the source code.
+- Run the software for educational or demonstration purposes.
+- Copy the software for non-commercial academic use.
+- Modify the software for academic, research, or demonstration purposes.
+
+The following activities are NOT permitted without prior written permission
+from the copyright holders:
+
+- Selling the software or any part of it.
+- Using the software for commercial purposes.
+- Distributing the software as a commercial product.
+- Licensing or sublicensing the software for commercial use.
+- Using the application as a clinically validated prescribing, diagnostic,
+  or autonomous treatment-decision system.
+
+This software is an academic prototype and is not a clinically validated
+medical device or clinical decision-support system.
+
+All demonstration cases must be fictional. The software must not be used as
+a substitute for professional clinical judgment or authoritative clinical
+guidance.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED. THE AUTHORS ARE NOT LIABLE FOR ANY CLAIM, DAMAGES, OR OTHER
+LIABILITY ARISING FROM THE USE OF THE SOFTWARE.
+
+For permission to use this software for purposes outside this license,
+contact the copyright holders.
