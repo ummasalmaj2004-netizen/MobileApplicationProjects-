@@ -1,30 +1,13 @@
-# TDM Insight
-### Native Android Therapeutic Drug Monitoring Calculator
+# TDM Insight — Native Android Therapeutic Drug Monitoring Calculator
 
-TDM Insight is a native Android academic software prototype developed for the
-CDE2313 Mobile Application Development course.
+## Course Information
 
-The application focuses on Therapeutic Drug Monitoring (TDM) calculations for
-Vancomycin. It provides a structured workflow for entering patient and
-laboratory information, validating inputs, performing calculations, displaying
-intermediate and final pharmacokinetic results, and explaining how the results
-were obtained.
-
----
-
-## 📚 Course Information
-
-| Information | Details |
-|---|---|
-| Course Code | CDE2313 |
-| Course Name | Mobile Application Development |
-| Programme | Bachelor in Data Science |
-| Academic Session | 2025/2026 |
-| Semester | Semester 3 |
-| Development Platform | Native Android |
-| Programming Language | Kotlin |
-| UI Technology | Jetpack Compose / XML |
-| Design System | Material 3 |
+**Course:** CDE2313 Mobile Application Development  
+**Programme:** Bachelor in Data Science  
+**Academic Session:** 2025/2026  
+**Semester:** Semester 3  
+**Project Type:** Group Project  
+**Platform:** Native Android
 
 ---
 
@@ -36,270 +19,200 @@ were obtained.
 | 2. Nur Khairunnisa binti Ramli | AIU24102156 |
 | 3. Ummasalma Jamil  | AIU24102319|
 
----
-
-## 📌 Case Study
-
-### Problem Overview
-
-A hospital pharmacy department performs Therapeutic Drug Monitoring (TDM)
-calculations for selected medicines. These calculations may require patient
-information, medication dose, dosing interval, drug concentration, sampling
-time, and laboratory information.
-
-The main challenge is to transform a non-trivial TDM calculation workflow
-into a reliable, understandable, and user-friendly mobile application.
-
-### Proposed Solution
-
-TDM Insight provides a structured Android-based TDM calculation workflow that
-guides the user through:
-
-1. Creating a fictional case.
-2. Entering patient parameters.
-3. Selecting Vancomycin.
-4. Selecting the required TDM workflow.
-5. Entering workflow-specific values.
-6. Validating the information.
-7. Reviewing the calculation inputs.
-8. Running the TDM calculation.
-9. Viewing intermediate and final results.
-10. Opening an explanation of the calculation.
-
-The case study focuses on three Vancomycin workflows:
-
-- Vancomycin Pre
-- Vancomycin Post
-- Vancomycin Pre + Post
-
-The selected workflow determines which input fields are displayed.
 
 ---
 
-## ✨ Key Features
+## Project Overview
 
-### Vancomycin TDM Workflows
+TDM Insight is a native Android application prototype developed for the Therapeutic Drug Monitoring (TDM) of Vancomycin.
 
-The application supports the following workflow options:
+The application is designed to support a structured TDM calculation workflow by collecting patient and dosing information, allowing the user to select a Vancomycin calculation workflow, validating the required inputs, performing pharmacokinetic calculations, and presenting the results together with intermediate calculation steps.
 
-- Pre-dose concentration workflow
-- Post-dose concentration workflow
-- Pre + Post concentration workflow
-
-### Dynamic Input Forms
-
-The application displays input fields according to the selected workflow
-instead of displaying every possible field on a single screen.
-
-### Input Validation
-
-The application validates entered information before calculations are
-performed.
-
-Validation includes:
-
-- Required-field validation
-- Numeric and unit validation
-- Range validation where applicable
-- Cross-field validation
-- Workflow-specific validation
-- Mathematical error protection
-
-### TDM Calculation Engine
-
-The calculation logic is separated from the user interface through a dedicated
-calculation engine.
-
-### Intermediate Results
-
-The application displays relevant intermediate pharmacokinetic values instead
-of presenting only a final number.
-
-### Explainable Results
-
-Users can open a calculation explanation showing the calculation process:
-
-Input Values
-→ Intermediate Values
-→ Pharmacokinetic Parameters
-→ Final Result
-
-### Material 3 Interface
-
-The application uses a clean mobile interface based on Material 3 design
-principles.
+The project is developed as an academic software prototype based on the requirements provided in the CDE2313 project case study.
 
 ---
 
+## Problem Statement
 
-## 🛠️ Technology Stack
+Therapeutic Drug Monitoring requires appropriate patient, medication, concentration, and sampling information to perform pharmacokinetic calculations.
+
+A mobile application can help organize these inputs and provide a structured calculation workflow. However, the application must handle different calculation methods, validate inputs, separate calculation logic from the user interface, and provide understandable results.
+
+TDM Insight addresses this problem through a native Android interface connected to a dedicated Vancomycin calculation engine.
+
+---
+
+## Objectives
+
+The main objectives of TDM Insight are:
+
+- Develop a native Android application using Kotlin.
+- Provide Vancomycin TDM calculation workflows.
+- Provide dynamic input fields based on the selected workflow.
+- Validate required user inputs.
+- Separate calculation logic from the user interface.
+- Calculate pharmacokinetic parameters.
+- Display intermediate and final calculation results.
+- Provide an understandable calculation trail for the user.
+
+---
+
+## Target Users
+
+The case study focuses on a hospital pharmacy department performing Therapeutic Drug Monitoring calculations.
+
+The application is developed as an academic prototype for demonstration and educational purposes.
+
+---
+
+## Implemented Features
+
+The current implementation includes:
+
+### 1. Vancomycin Workflow Selection
+
+The user can select one of three workflows:
+
+- Pre
+- Post
+- Pre + Post
+
+### 2. Dynamic Input Forms
+
+The application changes the workflow-specific input fields according to the selected Vancomycin method.
+
+Common patient and dosing information includes:
+
+- Weight
+- Age
+- Serum creatinine
+- Sex
+- Dose
+- Dosing interval
+- Infusion duration
+
+Workflow-specific information is displayed according to the selected method.
+
+### 3. Input Validation
+
+The application validates required inputs before calculation.
+
+Invalid inputs generate an error message and prevent the calculation from continuing.
+
+### 4. Vancomycin Calculation Engine
+
+The calculation logic is separated from the user interface in a dedicated calculation engine.
+
+The engine supports:
+
+- Pre-dose workflow
+- Post-dose workflow
+- Pre + Post workflow
+
+### 5. Pharmacokinetic Results
+
+Depending on the selected workflow, the application calculates relevant pharmacokinetic values such as:
+
+- Elimination rate constant (Ke)
+- Half-life
+- Volume of distribution (Vd)
+- Clearance
+- AUC (24 hr)
+- New maintenance dose
+- Expected concentration values
+
+### 6. Explainable Results
+
+The result screen presents the calculation in stages:
+
+1. Input Values
+2. Intermediate Values
+3. Pharmacokinetic Parameters
+4. Final Result
+
+The calculation steps include the formula used and the calculated value.
+
+### 7. Calculation Warnings
+
+The application provides warnings when certain calculation conditions are invalid, such as invalid concentration values, timing issues, or calculation conditions that may result in invalid values.
+
+---
+
+## Technology Stack
 
 | Technology | Purpose |
 |---|---|
 | Kotlin | Application programming language |
 | Android Studio | Android development environment |
-| Jetpack Compose / XML | User interface development |
-| Material 3 | User interface design |
+| Jetpack Compose | User interface development |
+| Material 3 | UI components and design |
 | Gradle | Project build system |
-| Git | Version control |
-| GitHub | Source code and project repository |
+| JUnit | Unit testing |
 
 ---
 
+## Application Architecture
 
-## 🏗️ Application Architecture
-
-TDM Insight separates the user interface from the calculation logic.
-
-The main conceptual architecture is:
+The application follows a separation between the user interface, validation, data models, and calculation engine.
 
 ```text
-┌─────────────────────────┐
-│       User Interface    │
-│     Material 3 UI       │
-└────────────┬────────────┘
-             │
-             ▼
-┌─────────────────────────┐
-│       Input State       │
-│   Patient / TDM Data    │
-└────────────┬────────────┘
-             │
-             ▼
-┌─────────────────────────┐
-│       Validation        │
-│ Required / Range /      │
-│ Cross-field Validation  │
-└────────────┬────────────┘
-             │
-             ▼
-┌─────────────────────────┐
-│   TDM Calculation       │
-│        Engine           │
-└────────────┬────────────┘
-             │
-             ▼
-┌─────────────────────────┐
-│     Result Model        │
-│ Intermediate / Final    │
-│ Pharmacokinetic Results │
-└────────────┬────────────┘
-             │
-             ▼
-┌─────────────────────────┐
-│    Results & Explanation│
-└─────────────────────────┘
-The calculation engine is kept separate from UI functions so that calculation
-logic can be maintained independently of the interface.
+User
+  ↓
+TDM Input Screen
+  ↓
+Input State
+  ↓
+Validation
+  ↓
+Vancomycin Calculation Engine
+  ↓
+TDM Result Model
+  ↓
+Results Screen
+The calculation logic is kept outside the Composable UI functions to improve separation of concerns and maintainability.
 
-
-
-## 📱 Main User Flow
-
+### Main Application Flow
 Open TDM Insight
-       ↓
-Create Fictional Case
-       ↓
-Enter Patient Parameters
-       ↓
-Select Vancomycin
-       ↓
-Select Workflow
-       ↓
-┌───────────────┬───────────────┬─────────────────┐
-│   Vancomycin  │   Vancomycin  │   Vancomycin    │
-│      Pre      │      Post     │    Pre + Post   │
-└───────────────┴───────────────┴─────────────────┘
-       ↓
-Enter Required Values
-       ↓
-Validate Information
-       ↓
-Review Calculation Inputs
-       ↓
+        ↓
+Select Vancomycin Workflow
+        ↓
+Enter Patient & Dose Parameters
+        ↓
+Enter Workflow-Specific Inputs
+        ↓
+Validate Inputs
+        ↓
 Run TDM Calculation
-       ↓
-Display Intermediate Results
-       ↓
+        ↓
+Display Intermediate Calculations
+        ↓
+Display Pharmacokinetic Parameters
+        ↓
 Display Final Results
-       ↓
-Open Calculation Explanation
 
+### Project Structure
+MobileApplicationProjects-/
 
-
-## 📥 Installation Guide
-
-Requirements
-
-Before installing or building the application, ensure that you have:
-
-Android Studio installed.
-A compatible Android SDK.
-Kotlin support enabled.
-An Android device or Android Emulator.
-Clone the Repository
-git clone [GITHUB_REPOSITORY_URL]
-Navigate into the project directory:
-cd [PROJECT_FOLDER_NAME]
-Open the project in Android Studio.
-
-Allow Android Studio to synchronize the Gradle files and complete the required
-project setup.
-
-
-## 🔨 How to Build the Project
-
-Using Android Studio
-Clone or download the repository.
-Open the project in Android Studio.
-Allow Gradle synchronization to complete.
-Connect an Android device or start an Android Emulator.
-Select the application configuration.
-Click Run to build and launch the application.
-Generate APK
-
-To generate a release APK, use Android Studio's build tools or run the
-appropriate Gradle build command.
-
-The release APK should be placed in:
-apk/app-release.apk
-
-## 📦 APK Download
-
-The release-ready APK is available in the repository:
-- [Download APK](./apk/app-release.apk)
-
-
-## 📸 Screenshots
-
-Screenshots demonstrating the application interface are stored in:
-- [Screenshots](./screenshots/)
-
-## 📂 GitHub Repository Structure
-
-## TDM-Insight/
-│
+###│
 ├── README.md
-├── LICENCE
+├── LICENSE
 ├── .gitignore
 │
 ├── app/
-│   └── Android Studio application files
+│   ├── src/
+│   │   ├── main/
+│   │   ├── test/
+│   │   └── androidTest/
+│   └── build.gradle.kts
 │
 ├── gradle/
-│   └── Gradle configuration
 │
 ├── screenshots/
-│   └── Application screenshots
 │
 ├── docs/
 │   ├── Case_Study_Analysis.md
-│   │
 │   ├── wireframe/
-│   │   └── Wireframe images
-│   │
 │   └── diagrams/
-│       └── System diagrams
 │
 ├── apk/
 │   └── app-release.apk
@@ -311,112 +224,122 @@ Screenshots demonstrating the application interface are stored in:
 ├── ai/
 │   └── AI_Usage_Log.pdf
 │
-└── assets/
-    └── Supporting resources ##
+└── assets/ ###
 
-
-## 📄 Project Documentation
-
-Additional project documentation can be found in the docs/ directory.
-
+### Documentation
 Case Study Analysis
-docs/Case_Study_Analysis.md
-
-This document contains the analysis of:
-
-Problem statement
-Target users
-Project scope
-Functional requirements
-Non-functional requirements
-Business rules
-TDM workflows
-Proposed solution
-User flow
-Requirements-to-feature mapping
-
 Wireframes
-- [Wireframes](./docs/wireframe/)
-Contains the interface wireframes developed during the design stage.
-
 Diagrams
-- [Diagrams](./docs/diagrams/)
+Screenshots
+AI Usage Log
 
-Contains the software engineering and system design diagrams for the project.
+APK
 
-## 🧪 Testing
+The release APK will be provided in the following location:
 
-Functional testing should be performed before submission to verify that the
-application behaves correctly.
+apk/app-release.apk
 
-Testing should cover:
+Download TDM Insight APK
 
-Navigation between screens.
-Workflow selection.
-Dynamic input fields.
-Required-field validation.
-Invalid input handling.
-Cross-field validation.
-Mathematical error handling.
-TDM calculations.
-Intermediate results.
-Final results.
-Calculation explanation.
+Installation
+Requirements
+Android Studio
+Android SDK
+Android device or Android Emulator
+JDK compatible with the project's Gradle configuration
+Using the APK
+Download the release APK from the apk folder.
+Transfer the APK to an Android device if necessary.
+Allow installation from the appropriate source when prompted.
+Install and launch TDM Insight.
+Running from Android Studio
+Open the project in Android Studio.
+Open the repository/project root.
+Allow Gradle to synchronize.
+Connect an Android device or start an emulator.
+Run the application.
+Screenshots
 
-Testing results and relevant evidence should be included in the project
-documentation where applicable.
+Application screenshots are stored in:
 
-## 🔐 Clinical and Academic Disclaimer
+screenshots/
 
-TDM Insight is an academic software prototype intended only for educational
-and software development purposes.
+View Application Screenshots
 
-It must not be presented as a clinically validated prescribing, diagnostic, or
-autonomous treatment-decision system.
+Testing
 
-All demonstration cases must be fictional.
+The project contains Android unit/instrumented test directories under:
 
-Clinical equations, reference values, units, and assumptions must be supported
-by appropriate authoritative sources.
+app/src/test/
+app/src/androidTest/
 
-## 🤖 AI Usage
+Testing is used to verify the calculation engine and application behaviour.
 
-Artificial Intelligence tools may have been used during the development
-process for permitted purposes such as learning, explanation, debugging,
-documentation support, and design discussion.
+Final testing results will be updated based on the completed application testing.
 
-A record of AI usage is provided in:
+Individual Contributions
 
-## AI Usage
+Each group member contributes to different parts of the project, including:
 
-- [AI Usage Log](./ai/AI_Usage_Log.pdf)
-The AI Usage Log documents the relevant AI tools, purposes, prompts where
+Requirements and case study analysis
+UI and wireframe planning
+System diagrams
+Android implementation
+Calculation engine
+Validation
+Testing and debugging
+Documentation
+GitHub repository management
+Presentation
 
-applicable, suggestions adopted or rejected, modifications made by the
-students, and reflections on the use of AI.
+Individual contributions can be verified through the GitHub commit history and project work.
 
-## 🙏 Acknowledgements
+AI Usage
 
-We would like to acknowledge:
+Generative AI was used as a supplementary learning and troubleshooting resource during the project.
+
+The project team remained responsible for:
+
+Requirements analysis
+Design decisions
+Technical implementation
+Testing
+Debugging
+Verification
+Final project decisions
+
+Details of AI usage are documented in the AI Usage Log.
+
+View AI Usage Log
+
+### Academic and Clinical Disclaimer
+
+TDM Insight is an academic software prototype developed for educational, software development, and demonstration purposes.
+
+The application is not clinically validated and is not intended to replace professional clinical judgment, prescribing decisions, diagnosis, or authoritative clinical guidance.
+
+All demonstration cases are fictional.
+
+Clinical equations, assumptions, units, and reference values should be verified against appropriate authoritative sources.
+
+### Acknowledgements
+
+Albukhary International University
 
 Lecturer Ts. Mohd Zulkifli Mohd Zaki
-Albukhary International University.
-The resources and references provided in the project case study.
-All sources used to understand Therapeutic Drug Monitoring and Vancomycin
-pharmacokinetic concepts.
 
+Reference calculators: myTDM Calculator, PhIS TDM Calculator
 
-## 📚 References
+The team acknowledges the course case study and the relevant authoritative references used to understand Vancomycin Therapeutic Drug Monitoring.
 
-The following resources were identified in the case study as starting points
-for domain understanding and reference checking:
+### References
+CDE2313 Mobile Application Development Project Case Study.
+CDE2313 Project Assessment Instructions.
+myTDM Calculator.
+Malaysian Pharmacy Information System (PhIS) TDM Calculator documentation.
+Current authoritative Vancomycin Therapeutic Drug Monitoring guidance.
+License
 
-myTDM Calculator
-Malaysian Pharmacy Information System (PhIS) TDM Calculator documentation
-Current authoritative Vancomycin TDM clinical guidance
+This project is provided under the TDM Insight Academic Non-Commercial License.
 
-Clinical equations and reference values used in the final application should
-be verified against appropriate authoritative clinical sources.
-
-
-
+The project is intended for academic, educational, research, and demonstration purposes and is not intended for commercial use or clinical deployment.
