@@ -233,7 +233,8 @@ Diagrams
 Screenshots
 AI Usage Log
 
-APK
+
+### APK
 
 The release APK will be provided in the following location:
 
@@ -241,24 +242,43 @@ apk/app-release.apk
 
 Download TDM Insight APK
 
-Installation
+
+### Installation
+
 Requirements
+
 Android Studio
+
 Android SDK
+
 Android device or Android Emulator
+
 JDK compatible with the project's Gradle configuration
+
 Using the APK
+
 Download the release APK from the apk folder.
+
 Transfer the APK to an Android device if necessary.
+
 Allow installation from the appropriate source when prompted.
+
 Install and launch TDM Insight.
+
 Running from Android Studio
+
 Open the project in Android Studio.
+
 Open the repository/project root.
+
 Allow Gradle to synchronize.
+
 Connect an Android device or start an emulator.
+
 Run the application.
-Screenshots
+
+
+### Screenshots
 
 Application screenshots are stored in:
 
@@ -266,7 +286,8 @@ screenshots/
 
 View Application Screenshots
 
-Testing
+
+### Testing
 
 The project contains Android unit/instrumented test directories under:
 
@@ -277,7 +298,9 @@ Testing is used to verify the calculation engine and application behaviour.
 
 Final testing results will be updated based on the completed application testing.
 
-Individual Contributions
+
+
+### Individual Contributions
 
 Each group member contributes to different parts of the project, including:
 
@@ -294,7 +317,9 @@ Presentation
 
 Individual contributions can be verified through the GitHub commit history and project work.
 
-AI Usage
+
+
+### AI Usage
 
 Generative AI was used as a supplementary learning and troubleshooting resource during the project.
 
@@ -312,6 +337,8 @@ Details of AI usage are documented in the AI Usage Log.
 
 View AI Usage Log
 
+
+
 ### Academic and Clinical Disclaimer
 
 TDM Insight is an academic software prototype developed for educational, software development, and demonstration purposes.
@@ -322,6 +349,8 @@ All demonstration cases are fictional.
 
 Clinical equations, assumptions, units, and reference values should be verified against appropriate authoritative sources.
 
+
+
 ### Acknowledgements
 
 Albukhary International University
@@ -331,6 +360,8 @@ Lecturer Ts. Mohd Zulkifli Mohd Zaki
 Reference calculators: myTDM Calculator, PhIS TDM Calculator
 
 The team acknowledges the course case study and the relevant authoritative references used to understand Vancomycin Therapeutic Drug Monitoring.
+
+
 
 ### References
 CDE2313 Mobile Application Development Project Case Study.
